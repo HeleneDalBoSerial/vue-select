@@ -1,6 +1,6 @@
 {
   "name": "vue-select",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "description": "Everything you wish the HTML <select> element could do, wrapped up into a lightweight, extensible Vue component.",
   "author": "Jeff Sagal <sagalbot@gmail.com>",
   "homepage": "https://vue-select.org",
@@ -67,7 +67,8 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "fuse.js": "^3.4.6"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -102,8 +103,5 @@
       "html",
       "text-summary"
     ]
-  },
-  "dependencies": {
-    "fuse.js": "^3.4.6"
   }
 }
